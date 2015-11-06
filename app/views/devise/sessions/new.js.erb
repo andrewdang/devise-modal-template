@@ -1,2 +1,10 @@
 $('#modal').html('<%= j render("new") %>');
 $('#modal').modal();
+
+// blur background when modal open
+$('.container').addClass('blur');
+$('.navbar').addClass('blur');
+  $('#modal').on('hidden.bs.modal', function () {
+    $('.container').removeClass('blur');
+    $('.navbar').removeClass('blur');
+})
