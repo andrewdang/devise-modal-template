@@ -1,0 +1,176 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  margin-bottom: 60px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #cccccc; 
+  background-size: cover;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.blur {
+  -webkit-filter: blur(8px);
+  -moz-filter: blur(8px);
+  -o-filter: blur(8px);
+  -ms-filter: blur(8px);
+  filter: blur(8px);
+}
+
+.btn,
+.navbar,
+.modal-header {
+  font-weight: bold;
+}
+
+.btn,
+.alert {
+  border: none;
+}
+
+.alert {
+  text-align: center;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.alert-danger {
+  background-color: rgba(105, 0, 0, 0.4);
+}
+
+.alert-success {
+  background-color: rgba(0, 167, 92, 0.3);
+}
+
+
+a {
+  color: #262626;
+}
+
+a:hover {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+nav .navbar-header .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+
+.btn,
+.alert,
+.btn:hover,
+.close,
+.close:hover,
+.navbar-default .navbar-text {
+  color: #fff;
+}
+
+
+
+.btn,
+.alert,
+input[type=text],
+input[type=email],
+input[type=password],
+.modal-content {
+  border-radius: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+ul {
+  padding-left: 0;
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+  }
+
+}
+
+
+.btn {
+  background-color: #5dc15e;
+}
+
+.btn:hover {
+  -webkit-transition: background .3s;
+  transition: background .3s;
+  text-decoration: none;
+  background-color: #3a9f3b;
+}
+
+.navbar-default {
+  background-color: rgba(0,0,0,0.3);
+  border: none;
+    a {
+      color: #fff !important;
+    }
+    a:hover {
+      background-color: rgba(0,0,0,0.1) !important;
+    }
+}
+
+.modal-content {
+  input[type=text],
+  input[type=email],
+  input[type=password] {
+    background-color: rgba(0,0,0,0);
+    outline: none;
+    box-shadow:none !important;
+    border: 1px solid #fff !important;
+    color: #d2d2d2;
+  }
+}
+
+
+.forgot-password {
+  .field {
+    width: 300px;
+  }
+}
+
+// modal
+.modal-header {
+  padding: 5px;
+  font-size: 18px;
+}
+
+.modal-backdrop {
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: rgba(0,0,0,0.5);
+  margin-top: 80px;
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+
+    a {
+      color: #5dc15e;
+    }
+
+    a:hover {
+        color: #3a9f3b;
+    }
+
+    input {
+      color: #5dc15e;
+    }
+
+    input:last-child {
+      color: #fff;
+    }
+  }
